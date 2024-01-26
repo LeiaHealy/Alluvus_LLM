@@ -10,7 +10,6 @@ from dotenv import load_dotenv
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QTextEdit, QComboBox, QApplication
 from Automated_PressRelease.press_release_gui import PressReleaseGUI
 load_dotenv()
-openai.api_key=os.getenv("OPENAI_API_KEY")
 
 # def gpt_press_release(filename, announcement, info_array, boilerplate):
 #     #TODO Note that info is now an ARRAY so you need to take that into account in either
